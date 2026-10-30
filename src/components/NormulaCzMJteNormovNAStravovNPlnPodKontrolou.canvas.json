@@ -1,0 +1,3332 @@
+{
+  "rootId": "c1",
+  "nodes": [
+    {
+      "id": "c1",
+      "parentId": null,
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "font-[Inter,_-apple-system,_BlinkMacSystemFont,_'Segoe_UI',_Roboto,_Helvetica,_Arial,_sans-serif] text-[16px] font-normal leading-[25.6px] tracking-normal text-[#12271f] bg-[#ffffff] w-full min-h-screen",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c2",
+      "parentId": "c1",
+      "order": 0,
+      "kind": "frame",
+      "name": "Header",
+      "className": "sticky top-0 z-[50] bg-[#ffffffd1] border-b border-[#00000000] [backdrop-filter:saturate(1.8)_blur(12px)] [transition:border-color_0.2s,_box-shadow_0.2s]",
+      "text": null,
+      "attrs": [
+        {
+          "name": "id",
+          "value": "nav"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c3",
+      "parentId": "c2",
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "flex items-center justify-between gap-4 w-full h-[68px] max-w-[var(--maxw)] mx-auto px-6",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c4",
+      "parentId": "c3",
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "flex items-center gap-[8.8px] text-[18.4px] font-extrabold leading-[29.44px] tracking-[-0.55px]",
+      "text": null,
+      "attrs": [
+        {
+          "name": "href",
+          "value": "#top"
+        },
+        {
+          "name": "aria-label",
+          "value": "Normula.cz"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c5",
+      "parentId": "c4",
+      "order": 0,
+      "kind": "image",
+      "name": "Image",
+      "className": "w-[34px] h-[34px] object-contain",
+      "text": null,
+      "attrs": [
+        {
+          "name": "src",
+          "value": "/icon.png"
+        },
+        {
+          "name": "width",
+          "value": "32"
+        },
+        {
+          "name": "height",
+          "value": "32"
+        },
+        {
+          "name": "alt",
+          "value": ""
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c6",
+      "parentId": "c4",
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "items-start flex-row justify-start flex",
+      "text": "Normula",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c7",
+      "parentId": "c6",
+      "order": 0,
+      "kind": "text",
+      "name": ".cz",
+      "className": "text-[#008f00]",
+      "text": ".cz",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c8",
+      "parentId": "c3",
+      "order": 1,
+      "kind": "frame",
+      "name": "Nav",
+      "className": "hidden md:flex text-[15.2px] font-medium leading-[24.32px] md:flex-row md:flex-nowrap md:gap-[25.6px]",
+      "text": null,
+      "attrs": [
+        {
+          "name": "aria-label",
+          "value": "Hlavní navigace"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c9",
+      "parentId": "c8",
+      "order": 0,
+      "kind": "text",
+      "name": "Funkce",
+      "className": "text-[#52665e] [transition:color_0.15s] hover:text-[#006b00]",
+      "text": "Funkce",
+      "attrs": [
+        {
+          "name": "href",
+          "value": "#funkce"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c10",
+      "parentId": "c8",
+      "order": 1,
+      "kind": "text",
+      "name": "Jak to funguje",
+      "className": "text-[#52665e] [transition:color_0.15s] hover:text-[#006b00]",
+      "text": "Jak to funguje",
+      "attrs": [
+        {
+          "name": "href",
+          "value": "#jak-to-funguje"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c11",
+      "parentId": "c8",
+      "order": 2,
+      "kind": "text",
+      "name": "Ceník",
+      "className": "text-[#52665e] [transition:color_0.15s] hover:text-[#006b00]",
+      "text": "Ceník",
+      "attrs": [
+        {
+          "name": "href",
+          "value": "#cenik"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c12",
+      "parentId": "c8",
+      "order": 3,
+      "kind": "text",
+      "name": "Časté dotazy",
+      "className": "text-[#52665e] [transition:color_0.15s] hover:text-[#006b00]",
+      "text": "Časté dotazy",
+      "attrs": [
+        {
+          "name": "href",
+          "value": "#faq"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c13",
+      "parentId": "c3",
+      "order": 2,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "hidden md:flex md:flex-row md:flex-nowrap md:items-center md:gap-2",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c14",
+      "parentId": "c13",
+      "order": 0,
+      "kind": "text",
+      "name": "Domluvit ukázku",
+      "className": "inline-flex md:flex items-center justify-center gap-2 text-[15.2px] font-semibold leading-[24.32px] text-[#ffffff] whitespace-nowrap bg-[#008f00] border-[#00000000] shadow-[rgba(11,_26,_21,_0.25)_0px_10px_24px_-12px] [transition:transform_0.15s,_background_0.2s,_box-shadow_0.2s,_border-color_0.2s] hover:bg-[#00000000] py-[11.2px] px-5 border rounded-full",
+      "text": "Domluvit ukázku",
+      "attrs": [
+        {
+          "name": "href",
+          "value": "#kontakt"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c15",
+      "parentId": "c3",
+      "order": 3,
+      "kind": "button",
+      "name": "Button",
+      "className": "flex md:hidden flex-col items-center justify-center gap-1 pt-0.5 pb-[3px] w-[40px] h-[40px] font-[system-ui] text-[11px] leading-[normal] text-[#000000d8] text-center border-[#e3ede8] px-1.5 border rounded-[10px]",
+      "text": "",
+      "attrs": [
+        {
+          "name": "id",
+          "value": "navToggle"
+        },
+        {
+          "name": "aria-label",
+          "value": "Otevřít menu"
+        },
+        {
+          "name": "aria-expanded",
+          "value": "false"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c16",
+      "parentId": "c15",
+      "order": 0,
+      "kind": "box",
+      "name": "Box",
+      "className": "w-[18px] h-[2px] bg-[#12271f] rounded-[2px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c17",
+      "parentId": "c15",
+      "order": 1,
+      "kind": "box",
+      "name": "Box",
+      "className": "w-[18px] h-[2px] bg-[#12271f] rounded-[2px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c18",
+      "parentId": "c15",
+      "order": 2,
+      "kind": "box",
+      "name": "Box",
+      "className": "w-[18px] h-[2px] bg-[#12271f] rounded-[2px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c19",
+      "parentId": "c1",
+      "order": 1,
+      "kind": "frame",
+      "name": "Main",
+      "className": "",
+      "text": null,
+      "attrs": [
+        {
+          "name": "id",
+          "value": "top"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c20",
+      "parentId": "c19",
+      "order": 0,
+      "kind": "frame",
+      "name": "Section",
+      "className": "pt-18 pb-10 relative overflow-x-hidden overflow-y-hidden",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c21",
+      "parentId": "c20",
+      "order": 0,
+      "kind": "box",
+      "name": "Box",
+      "className": "w-[720px] h-[720px] absolute -top-65 -right-40 [background-image:radial-gradient(circle,_rgba(0,_143,_0,_0.2),_rgba(0,_0,_0,_0)_62%)]",
+      "text": null,
+      "attrs": [
+        {
+          "name": "aria-hidden",
+          "value": "true"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c22",
+      "parentId": "c20",
+      "order": 1,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "grid items-center gap-12 grid-cols-[1fr] md:grid-cols-[1.05fr_0.95fr] w-full max-w-[var(--maxw)] relative mx-auto px-6",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c23",
+      "parentId": "c22",
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c24",
+      "parentId": "c23",
+      "order": 0,
+      "kind": "frame",
+      "name": "Heading",
+      "className": "mb-[16.8px] md:mb-[27.19px] text-[33.6px] md:text-[54.4px] font-bold leading-[38.64px] md:leading-[62.56px] tracking-[-0.67px] md:tracking-[-1.09px] text-[#0b1a15]",
+      "text": "Complete catering management ",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c25",
+      "parentId": "c24",
+      "order": 0,
+      "kind": "text",
+      "name": "in one place",
+      "className": "text-[#00000000] [background-image:linear-gradient(120deg,_rgb(0,_143,_0),_rgb(0,_107,_0))] bg-clip-text",
+      "text": "in one place",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c26",
+      "parentId": "c23",
+      "order": 1,
+      "kind": "text",
+      "name": "Normula automates menu creation...",
+      "className": "mb-[17.59px] max-w-[598.4px] text-[17.6px] leading-[28.16px] text-[#52665e]",
+      "text": "Normula automates menu creation, recipe sheet imports, tracks nutritional standards and food baskets, manages finances, diner records, and attendance. Save hours of administration every week.",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c27",
+      "parentId": "c23",
+      "order": 2,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "flex flex-wrap gap-3 mt-6 mb-5",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c28",
+      "parentId": "c27",
+      "order": 0,
+      "kind": "text",
+      "name": "Domluvit ukázku",
+      "className": "flex items-center justify-center gap-2 font-semibold text-[#ffffff] whitespace-nowrap bg-[#008f00] border-[#00000000] shadow-[rgba(11,_26,_21,_0.25)_0px_10px_24px_-12px] [transition:transform_0.15s,_background_0.2s,_box-shadow_0.2s,_border-color_0.2s] hover:bg-[#00000000] py-[14.4px] px-[25.6px] border rounded-full",
+      "text": "Domluvit ukázku",
+      "attrs": [
+        {
+          "name": "href",
+          "value": "#kontakt"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c29",
+      "parentId": "c27",
+      "order": 1,
+      "kind": "text",
+      "name": "Jak to funguje",
+      "className": "flex items-center justify-center gap-2 font-semibold whitespace-nowrap border-[#e3ede8] [transition:transform_0.15s,_background_0.2s,_box-shadow_0.2s,_border-color_0.2s] hover:border-[#12271f] hover:text-[#006b00] py-[14.4px] px-[25.6px] border rounded-full",
+      "text": "Jak to funguje",
+      "attrs": [
+        {
+          "name": "href",
+          "value": "#jak-to-funguje"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c30",
+      "parentId": "c23",
+      "order": 3,
+      "kind": "frame",
+      "name": "List",
+      "className": "flex flex-wrap gap-y-2 gap-x-6 text-[14.4px] leading-[23.04px] text-[#52665e]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c31",
+      "parentId": "c30",
+      "order": 0,
+      "kind": "text",
+      "name": "List item",
+      "className": "text-left",
+      "text": "✔ Bez instalace - běží v prohlížeči",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c34",
+      "parentId": "c22",
+      "order": 1,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "max-w-[520px] md:max-w-auto",
+      "text": null,
+      "attrs": [
+        {
+          "name": "aria-hidden",
+          "value": "true"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c35",
+      "parentId": "c34",
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "bg-[#ffffff] border-[#e3ede8] shadow-[rgba(11,_26,_21,_0.35)_0px_30px_60px_-30px] overflow-x-hidden overflow-y-hidden [transform:matrix3d(0.994806,_0,_0.101793,_0,_-0.003459,_0.999422,_0.033807,_0,_-0.101734,_-0.033983,_0.994231,_0,_0,_0,_0,_1)] md:[transform:matrix3d(0.994522,_0,_0.104528,_0,_-0.003648,_0.999391,_0.034708,_0,_-0.104465,_-0.034899,_0.993916,_0,_0,_0,_0,_1)] [transition:transform_0.4s] hover:[transform:matrix(1,_0,_0,_1,_0,_0)] border rounded-[16px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c36",
+      "parentId": "c35",
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "flex items-center gap-[6.4px] bg-[#f5faf7] border-b border-[#e3ede8] py-[12.8px] px-4",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c37",
+      "parentId": "c36",
+      "order": 0,
+      "kind": "box",
+      "name": "Box",
+      "className": "w-[10px] h-[10px] bg-[#fca5a5] rounded-full",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c38",
+      "parentId": "c36",
+      "order": 1,
+      "kind": "box",
+      "name": "Box",
+      "className": "w-[10px] h-[10px] bg-[#fcd34d] rounded-full",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c39",
+      "parentId": "c36",
+      "order": 2,
+      "kind": "box",
+      "name": "Box",
+      "className": "w-[10px] h-[10px] bg-[#86efac] rounded-full",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c40",
+      "parentId": "c36",
+      "order": 3,
+      "kind": "text",
+      "name": "Jídelní lístek - týden 42",
+      "className": "ml-[9.59px] text-[13.12px] font-semibold leading-[20.99px] text-[#52665e]",
+      "text": "Jídelní lístek - týden 42",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c41",
+      "parentId": "c35",
+      "order": 1,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "pt-[9.6px] pb-4 px-[12.8px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c42",
+      "parentId": "c41",
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "grid items-center gap-[9.6px] grid-cols-[44px_1fr_auto] text-[11.52px] leading-[18.43px] tracking-[0.92px] text-[#8aa196] uppercase border-b border-[#f0f6f3] py-[9.6px] px-[3.2px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c43",
+      "parentId": "c42",
+      "order": 0,
+      "kind": "text",
+      "name": "Den",
+      "className": "",
+      "text": "Den",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c44",
+      "parentId": "c42",
+      "order": 1,
+      "kind": "text",
+      "name": "Oběd",
+      "className": "",
+      "text": "Oběd",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c45",
+      "parentId": "c42",
+      "order": 2,
+      "kind": "text",
+      "name": "Norma",
+      "className": "",
+      "text": "Norma",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c46",
+      "parentId": "c41",
+      "order": 1,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "grid items-center gap-[9.6px] grid-cols-[44px_1fr_auto] text-[13.6px] leading-[21.76px] border-b border-[#f0f6f3] py-[9.6px] px-[3.2px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c47",
+      "parentId": "c46",
+      "order": 0,
+      "kind": "text",
+      "name": "Po",
+      "className": "",
+      "text": "Po",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c48",
+      "parentId": "c46",
+      "order": 1,
+      "kind": "text",
+      "name": "Kuřecí vývar, rizoto",
+      "className": "",
+      "text": "Kuřecí vývar, rizoto",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c49",
+      "parentId": "c46",
+      "order": 2,
+      "kind": "text",
+      "name": "100 %",
+      "className": "text-[11.52px] font-bold leading-[18.43px] text-[#006b00] bg-[#d6ecd6] py-[3.2px] px-[8.8px] rounded-full",
+      "text": "100 %",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c50",
+      "parentId": "c41",
+      "order": 2,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "grid items-center gap-[9.6px] grid-cols-[44px_1fr_auto] text-[13.6px] leading-[21.76px] border-b border-[#f0f6f3] py-[9.6px] px-[3.2px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c51",
+      "parentId": "c50",
+      "order": 0,
+      "kind": "text",
+      "name": "Út",
+      "className": "",
+      "text": "Út",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c52",
+      "parentId": "c50",
+      "order": 1,
+      "kind": "text",
+      "name": "Polévka zeleninová, ryba",
+      "className": "",
+      "text": "Polévka zeleninová, ryba",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c53",
+      "parentId": "c50",
+      "order": 2,
+      "kind": "text",
+      "name": "98 %",
+      "className": "text-[11.52px] font-bold leading-[18.43px] text-[#006b00] bg-[#d6ecd6] py-[3.2px] px-[8.8px] rounded-full",
+      "text": "98 %",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c54",
+      "parentId": "c41",
+      "order": 3,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "grid items-center gap-[9.6px] grid-cols-[44px_1fr_auto] text-[13.6px] leading-[21.76px] border-b border-[#f0f6f3] py-[9.6px] px-[3.2px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c55",
+      "parentId": "c54",
+      "order": 0,
+      "kind": "text",
+      "name": "St",
+      "className": "",
+      "text": "St",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c56",
+      "parentId": "c54",
+      "order": 1,
+      "kind": "text",
+      "name": "Hrachová, sekaná, brambor",
+      "className": "",
+      "text": "Hrachová, sekaná, brambor",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c57",
+      "parentId": "c54",
+      "order": 2,
+      "kind": "text",
+      "name": "92 %",
+      "className": "text-[11.52px] font-bold leading-[18.43px] text-[#b45309] bg-[#fef3c7] py-[3.2px] px-[8.8px] rounded-full",
+      "text": "92 %",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c58",
+      "parentId": "c41",
+      "order": 4,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "grid items-center gap-[9.6px] grid-cols-[44px_1fr_auto] text-[13.6px] leading-[21.76px] border-b border-[#f0f6f3] py-[9.6px] px-[3.2px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c59",
+      "parentId": "c58",
+      "order": 0,
+      "kind": "text",
+      "name": "Čt",
+      "className": "",
+      "text": "Čt",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c60",
+      "parentId": "c58",
+      "order": 1,
+      "kind": "text",
+      "name": "Květáková, karbanátek",
+      "className": "",
+      "text": "Květáková, karbanátek",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c61",
+      "parentId": "c58",
+      "order": 2,
+      "kind": "text",
+      "name": "101 %",
+      "className": "text-[11.52px] font-bold leading-[18.43px] text-[#006b00] bg-[#d6ecd6] py-[3.2px] px-[8.8px] rounded-full",
+      "text": "101 %",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c62",
+      "parentId": "c41",
+      "order": 5,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "grid items-center gap-[9.6px] grid-cols-[44px_1fr_auto] text-[13.6px] leading-[21.76px] border-b border-[#f0f6f3] py-[9.6px] px-[3.2px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c63",
+      "parentId": "c62",
+      "order": 0,
+      "kind": "text",
+      "name": "Pá",
+      "className": "",
+      "text": "Pá",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c64",
+      "parentId": "c62",
+      "order": 1,
+      "kind": "text",
+      "name": "Gulášová, palačinky",
+      "className": "",
+      "text": "Gulášová, palačinky",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c65",
+      "parentId": "c62",
+      "order": 2,
+      "kind": "text",
+      "name": "99 %",
+      "className": "text-[11.52px] font-bold leading-[18.43px] text-[#006b00] bg-[#d6ecd6] py-[3.2px] px-[8.8px] rounded-full",
+      "text": "99 %",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c66",
+      "parentId": "c41",
+      "order": 6,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "flex items-center gap-[11.2px] pt-[14.4px] pb-[3.2px] text-[12.8px] font-semibold leading-[20.48px] text-[#1f3a30] px-[3.2px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c67",
+      "parentId": "c66",
+      "order": 0,
+      "kind": "text",
+      "name": "Spotřební koš",
+      "className": "",
+      "text": "Spotřební koš",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c68",
+      "parentId": "c66",
+      "order": 1,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "grow basis-[0%] h-[8px] bg-[#d6ecd6] overflow-x-hidden overflow-y-hidden rounded-full",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c69",
+      "parentId": "c68",
+      "order": 0,
+      "kind": "box",
+      "name": "Box",
+      "className": "block w-[96%] h-full italic [background-image:linear-gradient(90deg,_rgb(51,_166,_51),_rgb(0,_143,_0))] rounded-full",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c70",
+      "parentId": "c66",
+      "order": 2,
+      "kind": "text",
+      "name": "96 %",
+      "className": "",
+      "text": "96 %",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c71",
+      "parentId": "c19",
+      "order": 1,
+      "kind": "frame",
+      "name": "Section",
+      "className": "pt-1 pb-11",
+      "text": null,
+      "attrs": [
+        {
+          "name": "aria-label",
+          "value": "Náhled aplikace Normula - Jídelníček"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c72",
+      "parentId": "c71",
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "w-full max-w-[var(--maxw)] mx-auto px-6",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c73",
+      "parentId": "c72",
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "bg-[#ffffff] border-[#e3ede8] shadow-[rgba(11,_26,_21,_0.35)_0px_30px_60px_-30px] overflow-x-hidden overflow-y-hidden border rounded-[18px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c74",
+      "parentId": "c73",
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "flex items-center gap-[6.4px] bg-[#f5faf7] border-b border-[#e3ede8] py-[12.8px] px-4",
+      "text": null,
+      "attrs": [
+        {
+          "name": "aria-hidden",
+          "value": "true"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c75",
+      "parentId": "c74",
+      "order": 0,
+      "kind": "box",
+      "name": "Box",
+      "className": "w-[10px] h-[10px] bg-[#fca5a5] rounded-full",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c76",
+      "parentId": "c74",
+      "order": 1,
+      "kind": "box",
+      "name": "Box",
+      "className": "w-[10px] h-[10px] bg-[#fcd34d] rounded-full",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c77",
+      "parentId": "c74",
+      "order": 2,
+      "kind": "box",
+      "name": "Box",
+      "className": "w-[10px] h-[10px] bg-[#86efac] rounded-full",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c78",
+      "parentId": "c74",
+      "order": 3,
+      "kind": "text",
+      "name": "Normula - Jídelníček",
+      "className": "ml-[9.59px] text-[13.12px] font-semibold leading-[20.99px] text-[#52665e]",
+      "text": "Normula - Jídelníček",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c79",
+      "parentId": "c73",
+      "order": 1,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "overflow-x-auto overflow-y-auto",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c80",
+      "parentId": "c79",
+      "order": 0,
+      "kind": "image",
+      "name": "Image: Náhled obrazovky Jídelníček…",
+      "className": "w-full min-w-[900px]",
+      "text": null,
+      "attrs": [
+        {
+          "name": "src",
+          "value": "/Image.png"
+        },
+        {
+          "name": "width",
+          "value": "2940"
+        },
+        {
+          "name": "height",
+          "value": "1664"
+        },
+        {
+          "name": "loading",
+          "value": "lazy"
+        },
+        {
+          "name": "decoding",
+          "value": "async"
+        },
+        {
+          "name": "alt",
+          "value": "Náhled obrazovky Jídelníček v aplikaci Normula - plán jídel na týden"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c81",
+      "parentId": "c19",
+      "order": 2,
+      "kind": "frame",
+      "name": "Section",
+      "className": "py-15 md:py-21",
+      "text": null,
+      "attrs": [
+        {
+          "name": "id",
+          "value": "funkce"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c82",
+      "parentId": "c81",
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "w-full max-w-[var(--maxw)] mx-auto px-6",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c83",
+      "parentId": "c82",
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "mb-12 max-w-[640px] text-center mx-auto",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c84",
+      "parentId": "c83",
+      "order": 0,
+      "kind": "text",
+      "name": "Heading",
+      "className": "mb-[12.8px] md:mb-[18.39px] text-[25.6px] md:text-[36.8px] font-bold leading-[29.44px] md:leading-[42.32px] tracking-[-0.51px] md:tracking-[-0.74px] text-[#0b1a15]",
+      "text": "Vše, co školní stravování potřebuje",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c85",
+      "parentId": "c83",
+      "order": 1,
+      "kind": "text",
+      "name": "Jeden systém místo tabulek,…",
+      "className": "mb-[16.8px] text-[16.8px] leading-[26.88px] text-[#52665e]",
+      "text": "Jeden systém místo tabulek, papírů a několika programů.",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c86",
+      "parentId": "c82",
+      "order": 1,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "grid gap-5.5 grid-cols-[1fr] md:grid-cols-[repeat(3,_1fr)]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c87",
+      "parentId": "c86",
+      "order": 0,
+      "kind": "frame",
+      "name": "Article",
+      "className": "bg-[#ffffff] border-[#e3ede8] p-6.5 border rounded-[16px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c88",
+      "parentId": "c87",
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "grid items-center justify-items-center mb-3.5 w-[48px] h-[48px] bg-[#eef8ee] rounded-[12px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c89",
+      "parentId": "c88",
+      "order": 0,
+      "kind": "icon",
+      "name": "Icon",
+      "className": "w-[24px] h-[24px] text-[#008f00] overflow-x-hidden overflow-y-hidden",
+      "text": null,
+      "attrs": [
+        {
+          "name": "viewBox",
+          "value": "0 0 24 24"
+        },
+        {
+          "name": "width",
+          "value": "24"
+        },
+        {
+          "name": "height",
+          "value": "24"
+        },
+        {
+          "name": "fill",
+          "value": "none"
+        },
+        {
+          "name": "stroke",
+          "value": "currentColor"
+        },
+        {
+          "name": "strokeWidth",
+          "value": "2"
+        },
+        {
+          "name": "strokeLinecap",
+          "value": "round"
+        },
+        {
+          "name": "strokeLinejoin",
+          "value": "round"
+        },
+        {
+          "name": "aria-hidden",
+          "value": "true"
+        }
+      ],
+      "figmaId": null,
+      "svg": "<path d=\"M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2\"></path><path d=\"M7 2v20\"></path><path d=\"M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7\"></path>"
+    },
+    {
+      "id": "c90",
+      "parentId": "c87",
+      "order": 1,
+      "kind": "text",
+      "name": "Heading",
+      "className": "mb-[8.95px] text-[17.92px] font-bold leading-[20.61px] tracking-[-0.36px] text-[#0b1a15]",
+      "text": "Automatická tvorba menu",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c91",
+      "parentId": "c87",
+      "order": 2,
+      "kind": "text",
+      "name": "Tvořte jídelní lístky na tý…",
+      "className": "text-[15.2px] leading-[24.32px] text-[#52665e]",
+      "text": "Tvořte jídelní lístky na týdny dopředu. Systém hlídá pestrost, kombinace a doporučené dávky potravin.",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c92",
+      "parentId": "c86",
+      "order": 1,
+      "kind": "frame",
+      "name": "Article",
+      "className": "bg-[#ffffff] border-[#e3ede8] p-6.5 border rounded-[16px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c93",
+      "parentId": "c92",
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "grid items-center justify-items-center mb-3.5 w-[48px] h-[48px] bg-[#eef8ee] rounded-[12px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c94",
+      "parentId": "c93",
+      "order": 0,
+      "kind": "icon",
+      "name": "Icon",
+      "className": "w-[24px] h-[24px] text-[#008f00] overflow-x-hidden overflow-y-hidden",
+      "text": null,
+      "attrs": [
+        {
+          "name": "viewBox",
+          "value": "0 0 24 24"
+        },
+        {
+          "name": "width",
+          "value": "24"
+        },
+        {
+          "name": "height",
+          "value": "24"
+        },
+        {
+          "name": "fill",
+          "value": "none"
+        },
+        {
+          "name": "stroke",
+          "value": "currentColor"
+        },
+        {
+          "name": "strokeWidth",
+          "value": "2"
+        },
+        {
+          "name": "strokeLinecap",
+          "value": "round"
+        },
+        {
+          "name": "strokeLinejoin",
+          "value": "round"
+        },
+        {
+          "name": "aria-hidden",
+          "value": "true"
+        }
+      ],
+      "figmaId": null,
+      "svg": "<path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\"></path><polyline points=\"7 10 12 15 17 10\"></polyline><line x1=\"12\" y1=\"15\" x2=\"12\" y2=\"3\"></line>"
+    },
+    {
+      "id": "c95",
+      "parentId": "c92",
+      "order": 1,
+      "kind": "text",
+      "name": "Heading",
+      "className": "mb-[8.95px] text-[17.92px] font-bold leading-[20.61px] tracking-[-0.36px] text-[#0b1a15]",
+      "text": "Import technologických karet a receptur",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c96",
+      "parentId": "c92",
+      "order": 2,
+      "kind": "text",
+      "name": "Nahrajte technologické kart…",
+      "className": "text-[15.2px] leading-[24.32px] text-[#52665e]",
+      "text": "Nahrajte technologické karty a receptury jedním kliknutím. Automatický přepočet surovin na počet porcí.",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c97",
+      "parentId": "c86",
+      "order": 2,
+      "kind": "frame",
+      "name": "Article",
+      "className": "bg-[#ffffff] border-[#e3ede8] p-6.5 border rounded-[16px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c98",
+      "parentId": "c97",
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "grid items-center justify-items-center mb-3.5 w-[48px] h-[48px] bg-[#eef8ee] rounded-[12px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c99",
+      "parentId": "c98",
+      "order": 0,
+      "kind": "icon",
+      "name": "Icon",
+      "className": "w-[24px] h-[24px] text-[#008f00] overflow-x-hidden overflow-y-hidden",
+      "text": null,
+      "attrs": [
+        {
+          "name": "viewBox",
+          "value": "0 0 24 24"
+        },
+        {
+          "name": "width",
+          "value": "24"
+        },
+        {
+          "name": "height",
+          "value": "24"
+        },
+        {
+          "name": "fill",
+          "value": "none"
+        },
+        {
+          "name": "stroke",
+          "value": "currentColor"
+        },
+        {
+          "name": "strokeWidth",
+          "value": "2"
+        },
+        {
+          "name": "strokeLinecap",
+          "value": "round"
+        },
+        {
+          "name": "strokeLinejoin",
+          "value": "round"
+        },
+        {
+          "name": "aria-hidden",
+          "value": "true"
+        }
+      ],
+      "figmaId": null,
+      "svg": "<rect width=\"20\" height=\"12\" x=\"2\" y=\"6\" rx=\"2\"></rect><circle cx=\"12\" cy=\"12\" r=\"2\"></circle><path d=\"M6 12h.01M18 12h.01\"></path>"
+    },
+    {
+      "id": "c100",
+      "parentId": "c97",
+      "order": 1,
+      "kind": "text",
+      "name": "Heading",
+      "className": "mb-[8.95px] text-[17.92px] font-bold leading-[20.61px] tracking-[-0.36px] text-[#0b1a15]",
+      "text": "Finance a kalkulace",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c101",
+      "parentId": "c97",
+      "order": 2,
+      "kind": "text",
+      "name": "Přesné kalkulace nákladů na…",
+      "className": "text-[15.2px] leading-[24.32px] text-[#52665e]",
+      "text": "Přesné kalkulace nákladů na porci, přehled nákladů na suroviny, mzdy i režii. Vždy víte, kolik vás strava stojí.",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c102",
+      "parentId": "c86",
+      "order": 3,
+      "kind": "frame",
+      "name": "Article",
+      "className": "bg-[#ffffff] border-[#e3ede8] p-6.5 border rounded-[16px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c103",
+      "parentId": "c102",
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "grid items-center justify-items-center mb-3.5 w-[48px] h-[48px] bg-[#eef8ee] rounded-[12px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c104",
+      "parentId": "c103",
+      "order": 0,
+      "kind": "icon",
+      "name": "Icon",
+      "className": "w-[24px] h-[24px] text-[#008f00] overflow-x-hidden overflow-y-hidden",
+      "text": null,
+      "attrs": [
+        {
+          "name": "viewBox",
+          "value": "0 0 24 24"
+        },
+        {
+          "name": "width",
+          "value": "24"
+        },
+        {
+          "name": "height",
+          "value": "24"
+        },
+        {
+          "name": "fill",
+          "value": "none"
+        },
+        {
+          "name": "stroke",
+          "value": "currentColor"
+        },
+        {
+          "name": "strokeWidth",
+          "value": "2"
+        },
+        {
+          "name": "strokeLinecap",
+          "value": "round"
+        },
+        {
+          "name": "strokeLinejoin",
+          "value": "round"
+        },
+        {
+          "name": "aria-hidden",
+          "value": "true"
+        }
+      ],
+      "figmaId": null,
+      "svg": "<rect width=\"8\" height=\"4\" x=\"8\" y=\"2\" rx=\"1\" ry=\"1\"></rect><path d=\"M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2\"></path><path d=\"M12 11h4\"></path><path d=\"M12 16h4\"></path><path d=\"M8 11h.01\"></path><path d=\"M8 16h.01\"></path>"
+    },
+    {
+      "id": "c105",
+      "parentId": "c102",
+      "order": 1,
+      "kind": "text",
+      "name": "Heading",
+      "className": "mb-[8.95px] text-[17.92px] font-bold leading-[20.61px] tracking-[-0.36px] text-[#0b1a15]",
+      "text": "Výkazy a deníky",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c106",
+      "parentId": "c102",
+      "order": 2,
+      "kind": "text",
+      "name": "Spotřební koš, výživové nor…",
+      "className": "text-[15.2px] leading-[24.32px] text-[#52665e]",
+      "text": "Spotřební koš, výživové normy, deníky strávníků, přehledy alergenů a další výkazy generované automaticky.",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c107",
+      "parentId": "c86",
+      "order": 4,
+      "kind": "frame",
+      "name": "Article",
+      "className": "bg-[#ffffff] border-[#e3ede8] p-6.5 border rounded-[16px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c108",
+      "parentId": "c107",
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "grid items-center justify-items-center mb-3.5 w-[48px] h-[48px] bg-[#eef8ee] rounded-[12px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c109",
+      "parentId": "c108",
+      "order": 0,
+      "kind": "icon",
+      "name": "Icon",
+      "className": "w-[24px] h-[24px] text-[#008f00] overflow-x-hidden overflow-y-hidden",
+      "text": null,
+      "attrs": [
+        {
+          "name": "viewBox",
+          "value": "0 0 24 24"
+        },
+        {
+          "name": "width",
+          "value": "24"
+        },
+        {
+          "name": "height",
+          "value": "24"
+        },
+        {
+          "name": "fill",
+          "value": "none"
+        },
+        {
+          "name": "stroke",
+          "value": "currentColor"
+        },
+        {
+          "name": "strokeWidth",
+          "value": "2"
+        },
+        {
+          "name": "strokeLinecap",
+          "value": "round"
+        },
+        {
+          "name": "strokeLinejoin",
+          "value": "round"
+        },
+        {
+          "name": "aria-hidden",
+          "value": "true"
+        }
+      ],
+      "figmaId": null,
+      "svg": "<path d=\"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2\"></path><circle cx=\"9\" cy=\"7\" r=\"4\"></circle><polyline points=\"16 11 18 13 22 9\"></polyline>"
+    },
+    {
+      "id": "c110",
+      "parentId": "c107",
+      "order": 1,
+      "kind": "text",
+      "name": "Heading",
+      "className": "mb-[8.95px] text-[17.92px] font-bold leading-[20.61px] tracking-[-0.36px] text-[#0b1a15]",
+      "text": "Evidence strávníků a docházka",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c111",
+      "parentId": "c107",
+      "order": 2,
+      "kind": "text",
+      "name": "Kdo přišel, kdo onemocněl, …",
+      "className": "text-[15.2px] leading-[24.32px] text-[#52665e]",
+      "text": "Kdo přišel, kdo onemocněl, kdo odjel na výlet. Odhlášky, přihlášky a docházka v reálném čase.",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c112",
+      "parentId": "c86",
+      "order": 5,
+      "kind": "frame",
+      "name": "Article",
+      "className": "bg-[#ffffff] border-[#e3ede8] p-6.5 border rounded-[16px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c113",
+      "parentId": "c112",
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "grid items-center justify-items-center mb-3.5 w-[48px] h-[48px] bg-[#eef8ee] rounded-[12px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c114",
+      "parentId": "c113",
+      "order": 0,
+      "kind": "icon",
+      "name": "Icon",
+      "className": "w-[24px] h-[24px] text-[#008f00] overflow-x-hidden overflow-y-hidden",
+      "text": null,
+      "attrs": [
+        {
+          "name": "viewBox",
+          "value": "0 0 24 24"
+        },
+        {
+          "name": "width",
+          "value": "24"
+        },
+        {
+          "name": "height",
+          "value": "24"
+        },
+        {
+          "name": "fill",
+          "value": "none"
+        },
+        {
+          "name": "stroke",
+          "value": "currentColor"
+        },
+        {
+          "name": "strokeWidth",
+          "value": "2"
+        },
+        {
+          "name": "strokeLinecap",
+          "value": "round"
+        },
+        {
+          "name": "strokeLinejoin",
+          "value": "round"
+        },
+        {
+          "name": "aria-hidden",
+          "value": "true"
+        }
+      ],
+      "figmaId": null,
+      "svg": "<path d=\"M2 22 16 8\"></path><path d=\"M3.47 12.53 5 11l1.53 1.53a3.5 3.5 0 0 1 0 4.94L5 19l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z\"></path><path d=\"M7.47 8.53 9 7l1.53 1.53a3.5 3.5 0 0 1 0 4.94L9 15l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z\"></path><path d=\"M11.47 4.53 13 3l1.53 1.53a3.5 3.5 0 0 1 0 4.94L13 11l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z\"></path><path d=\"M20 2h2v2a4 4 0 0 1-4 4h-2V6a4 4 0 0 1 4-4Z\"></path><path d=\"M11.47 17.47 13 19l-1.53 1.53a3.5 3.5 0 0 1-4.94 0L5 19l1.53-1.53a3.5 3.5 0 0 1 4.94 0Z\"></path><path d=\"M15.47 13.47 17 15l-1.53 1.53a3.5 3.5 0 0 1-4.94 0L9 15l1.53-1.53a3.5 3.5 0 0 1 4.94 0Z\"></path><path d=\"M19.47 9.47 21 11l-1.53 1.53a3.5 3.5 0 0 1-4.94 0L13 11l1.53-1.53a3.5 3.5 0 0 1 4.94 0Z\"></path>"
+    },
+    {
+      "id": "c115",
+      "parentId": "c112",
+      "order": 1,
+      "kind": "text",
+      "name": "Heading",
+      "className": "mb-[8.95px] text-[17.92px] font-bold leading-[20.61px] tracking-[-0.36px] text-[#0b1a15]",
+      "text": "Alergeny a diety",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c116",
+      "parentId": "c112",
+      "order": 2,
+      "kind": "text",
+      "name": "Automatické označení 14 ale…",
+      "className": "text-[15.2px] leading-[24.32px] text-[#52665e]",
+      "text": "Automatické označení 14 alergenů a správa diabetických, bezlepkových a dalších dietních omezení.",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c117",
+      "parentId": "c19",
+      "order": 3,
+      "kind": "frame",
+      "name": "Section",
+      "className": "bg-[#f5faf7] py-15 md:py-21",
+      "text": null,
+      "attrs": [
+        {
+          "name": "id",
+          "value": "jak-to-funguje"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c118",
+      "parentId": "c117",
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "w-full max-w-[var(--maxw)] mx-auto px-6",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c119",
+      "parentId": "c118",
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "mb-12 max-w-[640px] text-center mx-auto",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c120",
+      "parentId": "c119",
+      "order": 0,
+      "kind": "text",
+      "name": "Heading",
+      "className": "mb-[12.8px] md:mb-[18.39px] text-[25.6px] md:text-[36.8px] font-bold leading-[29.44px] md:leading-[42.32px] tracking-[-0.51px] md:tracking-[-0.74px] text-[#0b1a15]",
+      "text": "Od importu k hotovému výkazu ve třech krocích",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c121",
+      "parentId": "c118",
+      "order": 1,
+      "kind": "frame",
+      "name": "List",
+      "className": "grid gap-5.5 grid-cols-[1fr] md:grid-cols-[repeat(3,_1fr)]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c122",
+      "parentId": "c121",
+      "order": 0,
+      "kind": "frame",
+      "name": "List item",
+      "className": "relative text-left bg-[#ffffff] border-[#e3ede8] py-7.5 px-6.5 border rounded-[16px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c123",
+      "parentId": "c122",
+      "order": 0,
+      "kind": "text",
+      "name": "1",
+      "className": "grid items-center justify-items-center mb-3.5 w-[40px] h-[40px] font-bold text-[#ffffff] bg-[#008f00] rounded-full",
+      "text": "1",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c124",
+      "parentId": "c122",
+      "order": 1,
+      "kind": "text",
+      "name": "Heading",
+      "className": "mb-[8.8px] text-[17.6px] font-bold leading-[20.24px] tracking-[-0.35px] text-[#0b1a15]",
+      "text": "Nahrajte data",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c125",
+      "parentId": "c122",
+      "order": 2,
+      "kind": "text",
+      "name": "Import technologických kare…",
+      "className": "text-[15.2px] leading-[24.32px] text-[#52665e]",
+      "text": "Import technologických karet, receptur, strávníků a skladu z Excelu nebo z vašeho stávajícího systému.",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c126",
+      "parentId": "c121",
+      "order": 1,
+      "kind": "frame",
+      "name": "List item",
+      "className": "relative text-left bg-[#ffffff] border-[#e3ede8] py-7.5 px-6.5 border rounded-[16px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c127",
+      "parentId": "c126",
+      "order": 0,
+      "kind": "text",
+      "name": "2",
+      "className": "grid items-center justify-items-center mb-3.5 w-[40px] h-[40px] font-bold text-[#ffffff] bg-[#008f00] rounded-full",
+      "text": "2",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c128",
+      "parentId": "c126",
+      "order": 1,
+      "kind": "text",
+      "name": "Heading",
+      "className": "mb-[8.8px] text-[17.6px] font-bold leading-[20.24px] tracking-[-0.35px] text-[#0b1a15]",
+      "text": "Naplánujte menu",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c129",
+      "parentId": "c126",
+      "order": 2,
+      "kind": "text",
+      "name": "Sestavte jídelní lístek pom…",
+      "className": "text-[15.2px] leading-[24.32px] text-[#52665e]",
+      "text": "Sestavte jídelní lístek pomocí šablon. Normula sama přepočítá suroviny a zkontroluje normy.",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c130",
+      "parentId": "c121",
+      "order": 2,
+      "kind": "frame",
+      "name": "List item",
+      "className": "relative text-left bg-[#ffffff] border-[#e3ede8] py-7.5 px-6.5 border rounded-[16px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c131",
+      "parentId": "c130",
+      "order": 0,
+      "kind": "text",
+      "name": "3",
+      "className": "grid items-center justify-items-center mb-3.5 w-[40px] h-[40px] font-bold text-[#ffffff] bg-[#008f00] rounded-full",
+      "text": "3",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c132",
+      "parentId": "c130",
+      "order": 1,
+      "kind": "text",
+      "name": "Heading",
+      "className": "mb-[8.8px] text-[17.6px] font-bold leading-[20.24px] tracking-[-0.35px] text-[#0b1a15]",
+      "text": "Vykazujte",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c133",
+      "parentId": "c130",
+      "order": 2,
+      "kind": "text",
+      "name": "Spotřební koš, finance i ev…",
+      "className": "text-[15.2px] leading-[24.32px] text-[#52665e]",
+      "text": "Spotřební koš, finance i evidence docházky se generují automaticky - připravené ke kontrole a exportu.",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c134",
+      "parentId": "c19",
+      "order": 4,
+      "kind": "frame",
+      "name": "Section",
+      "className": "py-15 md:py-21",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c135",
+      "parentId": "c134",
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "grid items-center gap-12 grid-cols-[1fr] md:grid-cols-[1.15fr_0.85fr] w-full max-w-[var(--maxw)] mx-auto px-6",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c136",
+      "parentId": "c135",
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c137",
+      "parentId": "c136",
+      "order": 0,
+      "kind": "text",
+      "name": "Heading",
+      "className": "mb-3 text-[24px] font-bold leading-[27.6px] tracking-[-0.48px] text-[#0b1a15]",
+      "text": "Méně papírování, více času na děti",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c138",
+      "parentId": "c136",
+      "order": 1,
+      "kind": "frame",
+      "name": "List",
+      "className": "mb-[25.59px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c139",
+      "parentId": "c138",
+      "order": 0,
+      "kind": "frame",
+      "name": "List item",
+      "className": "mb-4 pl-8 relative text-[#52665e] text-left before:grid before:items-center before:justify-items-center before:w-[22px] before:h-[22px] before:box-content before:absolute before:top-0 before:left-0 before:text-[12.8px] before:font-extrabold before:leading-[20.48px] before:text-[#006b00] before:bg-[#d6ecd6] before:content-['✓'] before:rounded-full",
+      "text": "- konec ručnímu přepočítávání norem a psaní deníků.",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c140",
+      "parentId": "c139",
+      "order": 0,
+      "kind": "text",
+      "name": "Až 10 hodin měsíčně ušetřeno",
+      "className": "font-bold text-[#0b1a15]",
+      "text": "Až 10 hodin měsíčně ušetřeno",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c141",
+      "parentId": "c138",
+      "order": 1,
+      "kind": "frame",
+      "name": "List item",
+      "className": "mb-4 pl-8 relative text-[#52665e] text-left before:grid before:items-center before:justify-items-center before:w-[22px] before:h-[22px] before:box-content before:absolute before:top-0 before:left-0 before:text-[12.8px] before:font-extrabold before:leading-[20.48px] before:text-[#006b00] before:bg-[#d6ecd6] before:content-['✓'] before:rounded-full",
+      "text": "- spotřební koš a výživové normy dle vyhlášky č. 107/2005 Sb.",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c142",
+      "parentId": "c141",
+      "order": 0,
+      "kind": "text",
+      "name": "Vždy v souladu s legislativ…",
+      "className": "font-bold text-[#0b1a15]",
+      "text": "Vždy v souladu s legislativou",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c143",
+      "parentId": "c138",
+      "order": 2,
+      "kind": "frame",
+      "name": "List item",
+      "className": "mb-4 pl-8 relative text-[#52665e] text-left before:grid before:items-center before:justify-items-center before:w-[22px] before:h-[22px] before:box-content before:absolute before:top-0 before:left-0 before:text-[12.8px] before:font-extrabold before:leading-[20.48px] before:text-[#006b00] before:bg-[#d6ecd6] before:content-['✓'] before:rounded-full",
+      "text": "- náklady na porci i celý provoz na jednom dashboardu.",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c144",
+      "parentId": "c143",
+      "order": 0,
+      "kind": "text",
+      "name": "Přehled o financích",
+      "className": "font-bold text-[#0b1a15]",
+      "text": "Přehled o financích",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c145",
+      "parentId": "c138",
+      "order": 3,
+      "kind": "frame",
+      "name": "List item",
+      "className": "mb-4 pl-8 relative text-[#52665e] text-left before:grid before:items-center before:justify-items-center before:w-[22px] before:h-[22px] before:box-content before:absolute before:top-0 before:left-0 before:text-[12.8px] before:font-extrabold before:leading-[20.48px] before:text-[#006b00] before:bg-[#d6ecd6] before:content-['✓'] before:rounded-full",
+      "text": "- okamžitý export výkazů pro ČŠI, hygienu a zřizovatele.",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c146",
+      "parentId": "c145",
+      "order": 0,
+      "kind": "text",
+      "name": "Rychlá kontrola",
+      "className": "font-bold text-[#0b1a15]",
+      "text": "Rychlá kontrola",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c147",
+      "parentId": "c136",
+      "order": 2,
+      "kind": "text",
+      "name": "Chci ukázku",
+      "className": "inline-flex items-center justify-center gap-2 text-[15.2px] font-semibold leading-[24.32px] text-[#ffffff] whitespace-nowrap bg-[#008f00] border-[#00000000] shadow-[rgba(11,_26,_21,_0.25)_0px_10px_24px_-12px] [transition:transform_0.15s,_background_0.2s,_box-shadow_0.2s,_border-color_0.2s] hover:bg-[#00000000] py-[11.2px] px-5 border rounded-full",
+      "text": "Chci ukázku",
+      "attrs": [
+        {
+          "name": "href",
+          "value": "#kontakt"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c148",
+      "parentId": "c135",
+      "order": 1,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "grid gap-4 grid-cols-[1fr_1fr]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c149",
+      "parentId": "c148",
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "text-center bg-[#ffffff] border-[#e3ede8] p-5.5 border rounded-[16px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c150",
+      "parentId": "c149",
+      "order": 0,
+      "kind": "text",
+      "name": "10 h",
+      "className": "block text-[30.4px] font-extrabold leading-[48.64px] tracking-[-0.91px] text-[#008f00]",
+      "text": "10 h",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c151",
+      "parentId": "c149",
+      "order": 1,
+      "kind": "text",
+      "name": "měsíčně ušetřeno na adminis…",
+      "className": "text-[13.6px] leading-[21.76px] text-[#52665e]",
+      "text": "měsíčně ušetřeno na administrativě",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c152",
+      "parentId": "c148",
+      "order": 1,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "text-center bg-[#ffffff] border-[#e3ede8] p-5.5 border rounded-[16px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c153",
+      "parentId": "c152",
+      "order": 0,
+      "kind": "text",
+      "name": "100 %",
+      "className": "block text-[30.4px] font-extrabold leading-[48.64px] tracking-[-0.91px] text-[#008f00]",
+      "text": "100 %",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c154",
+      "parentId": "c152",
+      "order": 1,
+      "kind": "text",
+      "name": "automatický spotřební koš",
+      "className": "text-[13.6px] leading-[21.76px] text-[#52665e]",
+      "text": "automatický spotřební koš",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c155",
+      "parentId": "c148",
+      "order": 2,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "text-center bg-[#ffffff] border-[#e3ede8] p-5.5 border rounded-[16px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c156",
+      "parentId": "c155",
+      "order": 0,
+      "kind": "text",
+      "name": "14",
+      "className": "block text-[30.4px] font-extrabold leading-[48.64px] tracking-[-0.91px] text-[#008f00]",
+      "text": "14",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c157",
+      "parentId": "c155",
+      "order": 1,
+      "kind": "text",
+      "name": "hlídaných alergenů",
+      "className": "text-[13.6px] leading-[21.76px] text-[#52665e]",
+      "text": "hlídaných alergenů",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c158",
+      "parentId": "c148",
+      "order": 3,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "text-center bg-[#ffffff] border-[#e3ede8] p-5.5 border rounded-[16px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c159",
+      "parentId": "c158",
+      "order": 0,
+      "kind": "text",
+      "name": "24/7",
+      "className": "block text-[30.4px] font-extrabold leading-[48.64px] tracking-[-0.91px] text-[#008f00]",
+      "text": "24/7",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c160",
+      "parentId": "c158",
+      "order": 1,
+      "kind": "text",
+      "name": "přístup z jakéhokoliv zaříz…",
+      "className": "text-[13.6px] leading-[21.76px] text-[#52665e]",
+      "text": "přístup z jakéhokoliv zařízení",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c161",
+      "parentId": "c19",
+      "order": 5,
+      "kind": "frame",
+      "name": "Section",
+      "className": "bg-[#f5faf7] py-15 md:py-21",
+      "text": null,
+      "attrs": [
+        {
+          "name": "id",
+          "value": "cenik"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c162",
+      "parentId": "c161",
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "w-full max-w-[var(--maxw)] mx-auto px-6",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c163",
+      "parentId": "c162",
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "mb-12 max-w-[640px] text-center mx-auto",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c164",
+      "parentId": "c163",
+      "order": 0,
+      "kind": "text",
+      "name": "Heading",
+      "className": "mb-[12.8px] md:mb-[18.39px] text-[25.6px] md:text-[36.8px] font-bold leading-[29.44px] md:leading-[42.32px] tracking-[-0.51px] md:tracking-[-0.74px] text-[#0b1a15]",
+      "text": "Transparentní ceny bez skrytých poplatků",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c165",
+      "parentId": "c163",
+      "order": 1,
+      "kind": "text",
+      "name": "Nezávazná nabídka na míru p…",
+      "className": "mb-[16.8px] text-[16.8px] leading-[26.88px] text-[#52665e]",
+      "text": "Nezávazná nabídka na míru podle rozsahu funkcí a počtu strávníků.",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c166",
+      "parentId": "c162",
+      "order": 1,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "max-w-[460px] mx-auto",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c167",
+      "parentId": "c166",
+      "order": 0,
+      "kind": "frame",
+      "name": "Article",
+      "className": "flex flex-col relative bg-[#ffffff] border-[#008f00] shadow-[rgba(11,_26,_21,_0.35)_0px_30px_60px_-30px] p-7.5 border rounded-[16px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c168",
+      "parentId": "c167",
+      "order": 0,
+      "kind": "text",
+      "name": "Na míru",
+      "className": "absolute -top-[13px] left-7.5 text-[11.52px] font-bold leading-[18.43px] tracking-[0.58px] text-[#ffffff] uppercase bg-[#008f00] py-[4.8px] px-[11.2px] rounded-full",
+      "text": "Na míru",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c169",
+      "parentId": "c167",
+      "order": 1,
+      "kind": "text",
+      "name": "Heading",
+      "className": "mb-1 text-[19.2px] font-bold leading-[22.08px] tracking-[-0.38px] text-[#0b1a15]",
+      "text": "Individuální nabídka",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c170",
+      "parentId": "c167",
+      "order": 2,
+      "kind": "text",
+      "name": "Pro mateřské školy, základn…",
+      "className": "mb-[14.08px] min-h-[33.79px] text-[14.08px] leading-[22.53px] text-[#52665e]",
+      "text": "Pro mateřské školy, základní školy a školní jídelny",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c171",
+      "parentId": "c167",
+      "order": 3,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "mt-2 mb-4 text-[30.4px] font-extrabold leading-[48.64px] tracking-[-0.91px] text-[#0b1a15]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c172",
+      "parentId": "c171",
+      "order": 0,
+      "kind": "text",
+      "name": "Individuálně",
+      "className": "",
+      "text": "Individuálně",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c173",
+      "parentId": "c167",
+      "order": 4,
+      "kind": "frame",
+      "name": "List",
+      "className": "mb-[25.59px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c174",
+      "parentId": "c173",
+      "order": 0,
+      "kind": "text",
+      "name": "List item",
+      "className": "mb-[9.59px] pl-[25.6px] relative text-[14.72px] leading-[23.55px] text-[#52665e] text-left before:block before:absolute before:left-0 before:font-extrabold before:text-[#008f00] before:content-['✓']",
+      "text": "Tvorba jídelních lístků a import technologických karet",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c175",
+      "parentId": "c173",
+      "order": 1,
+      "kind": "text",
+      "name": "List item",
+      "className": "mb-[9.59px] pl-[25.6px] relative text-[14.72px] leading-[23.55px] text-[#52665e] text-left before:block before:absolute before:left-0 before:font-extrabold before:text-[#008f00] before:content-['✓']",
+      "text": "Finance, kalkulace a spotřební koš",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c176",
+      "parentId": "c173",
+      "order": 2,
+      "kind": "text",
+      "name": "List item",
+      "className": "mb-[9.59px] pl-[25.6px] relative text-[14.72px] leading-[23.55px] text-[#52665e] text-left before:block before:absolute before:left-0 before:font-extrabold before:text-[#008f00] before:content-['✓']",
+      "text": "Evidence strávníků, docházka a výkazy",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c177",
+      "parentId": "c173",
+      "order": 3,
+      "kind": "text",
+      "name": "List item",
+      "className": "mb-[9.59px] pl-[25.6px] relative text-[14.72px] leading-[23.55px] text-[#52665e] text-left before:block before:absolute before:left-0 before:font-extrabold before:text-[#008f00] before:content-['✓']",
+      "text": "Alergeny a diety",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c178",
+      "parentId": "c173",
+      "order": 4,
+      "kind": "text",
+      "name": "List item",
+      "className": "mb-[9.59px] pl-[25.6px] relative text-[14.72px] leading-[23.55px] text-[#52665e] text-left before:block before:absolute before:left-0 before:font-extrabold before:text-[#008f00] before:content-['✓']",
+      "text": "Export výkazů pro ČŠI a hygienu",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c179",
+      "parentId": "c173",
+      "order": 5,
+      "kind": "text",
+      "name": "List item",
+      "className": "mb-[9.59px] pl-[25.6px] relative text-[14.72px] leading-[23.55px] text-[#52665e] text-left before:block before:absolute before:left-0 before:font-extrabold before:text-[#008f00] before:content-['✓']",
+      "text": "Zavedení, školení a podpora",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c180",
+      "parentId": "c167",
+      "order": 5,
+      "kind": "text",
+      "name": "Nezávazně poptat",
+      "className": "flex items-center justify-center gap-2 mt-auto w-full text-[15.2px] font-semibold leading-[24.32px] text-[#ffffff] whitespace-nowrap bg-[#008f00] border-[#00000000] shadow-[rgba(11,_26,_21,_0.25)_0px_10px_24px_-12px] [transition:transform_0.15s,_background_0.2s,_box-shadow_0.2s,_border-color_0.2s] hover:bg-[#00000000] py-[11.2px] px-5 border rounded-full",
+      "text": "Nezávazně poptat",
+      "attrs": [
+        {
+          "name": "href",
+          "value": "#kontakt"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c181",
+      "parentId": "c19",
+      "order": 6,
+      "kind": "frame",
+      "name": "Section",
+      "className": "py-15 md:py-21",
+      "text": null,
+      "attrs": [
+        {
+          "name": "id",
+          "value": "faq"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c182",
+      "parentId": "c181",
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "w-full max-w-[800px] mx-auto px-6",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c183",
+      "parentId": "c182",
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "mb-12 max-w-[640px] text-center mx-auto",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c184",
+      "parentId": "c183",
+      "order": 0,
+      "kind": "text",
+      "name": "Heading",
+      "className": "mb-[12.8px] md:mb-[18.39px] text-[25.6px] md:text-[36.8px] font-bold leading-[29.44px] md:leading-[42.32px] tracking-[-0.51px] md:tracking-[-0.74px] text-[#0b1a15]",
+      "text": "Na co se nás ptáte nejčastěji",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c185",
+      "parentId": "c182",
+      "order": 1,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c186",
+      "parentId": "c185",
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "mb-3 bg-[#ffffff] border-[#e3ede8] [transition:border-color_0.2s] py-1 px-5 border rounded-[10px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c187",
+      "parentId": "c186",
+      "order": 0,
+      "kind": "text",
+      "name": "Musíme něco instalovat?",
+      "className": "flex items-center justify-between gap-4 font-semibold text-[#0b1a15] list-none cursor-pointer py-4 after:text-[20.8px] after:font-normal after:leading-[33.28px] after:text-[#008f00] after:content-['+']",
+      "text": "Musíme něco instalovat?",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c188",
+      "parentId": "c186",
+      "order": 1,
+      "kind": "text",
+      "name": "Ne. Normula běží v prohlíže…",
+      "className": "pr-8 mb-4 text-[#52665e]",
+      "text": "Ne. Normula běží v prohlížeči na počítači, tabletu i telefonu. Stačí se přihlásit a máte přístup odkudkoliv.",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c189",
+      "parentId": "c185",
+      "order": 1,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "mb-3 bg-[#ffffff] border-[#e3ede8] [transition:border-color_0.2s] py-1 px-5 border rounded-[10px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c190",
+      "parentId": "c189",
+      "order": 0,
+      "kind": "text",
+      "name": "Zvládneme přejít ze stávají…",
+      "className": "flex items-center justify-between gap-4 font-semibold text-[#0b1a15] list-none cursor-pointer py-4 after:text-[20.8px] after:font-normal after:leading-[33.28px] after:text-[#008f00] after:content-['+']",
+      "text": "Zvládneme přejít ze stávajícího systému?",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c191",
+      "parentId": "c189",
+      "order": 1,
+      "kind": "text",
+      "name": "Ano. Pomůžeme vám s importe…",
+      "className": "pr-8 mb-4 text-[#52665e]",
+      "text": "Ano. Pomůžeme vám s importem technologických karet, receptur, strávníků i historie. Máme připravené šablony a naši podporu.",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c192",
+      "parentId": "c185",
+      "order": 2,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "mb-3 bg-[#ffffff] border-[#e3ede8] [transition:border-color_0.2s] py-1 px-5 border rounded-[10px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c193",
+      "parentId": "c192",
+      "order": 0,
+      "kind": "text",
+      "name": "Odpovídá systém české legis…",
+      "className": "flex items-center justify-between gap-4 font-semibold text-[#0b1a15] list-none cursor-pointer py-4 after:text-[20.8px] after:font-normal after:leading-[33.28px] after:text-[#008f00] after:content-['+']",
+      "text": "Odpovídá systém české legislativě?",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c194",
+      "parentId": "c192",
+      "order": 1,
+      "kind": "text",
+      "name": "Normula počítá spotřební ko…",
+      "className": "pr-8 mb-4 text-[#52665e]",
+      "text": "Normula počítá spotřební koš a výživové normy podle vyhlášky č. 107/2005 Sb. a hlídá 14 povinně označovaných alergenů.",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c195",
+      "parentId": "c185",
+      "order": 3,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "mb-3 bg-[#ffffff] border-[#e3ede8] [transition:border-color_0.2s] py-1 px-5 border rounded-[10px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c196",
+      "parentId": "c195",
+      "order": 0,
+      "kind": "text",
+      "name": "Kolik to stojí a jak získám…",
+      "className": "flex items-center justify-between gap-4 font-semibold text-[#0b1a15] list-none cursor-pointer py-4 after:text-[20.8px] after:font-normal after:leading-[33.28px] after:text-[#008f00] after:content-['+']",
+      "text": "Kolik to stojí a jak získám nabídku?",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c197",
+      "parentId": "c195",
+      "order": 1,
+      "kind": "text",
+      "name": "Cena závisí na rozsahu funk…",
+      "className": "pr-8 mb-4 text-[#52665e]",
+      "text": "Cena závisí na rozsahu funkcí a počtu strávníků. Nezávazně vám připravíme individuální nabídku na míru.",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c198",
+      "parentId": "c185",
+      "order": 4,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "mb-3 bg-[#ffffff] border-[#e3ede8] [transition:border-color_0.2s] py-1 px-5 border rounded-[10px]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c199",
+      "parentId": "c198",
+      "order": 0,
+      "kind": "text",
+      "name": "Umíte přepočítat množství s…",
+      "className": "flex items-center justify-between gap-4 font-semibold text-[#0b1a15] list-none cursor-pointer py-4 after:text-[20.8px] after:font-normal after:leading-[33.28px] after:text-[#008f00] after:content-['+']",
+      "text": "Umíte přepočítat množství surovin na počet porcí?",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c200",
+      "parentId": "c198",
+      "order": 1,
+      "kind": "text",
+      "name": "Ano. Z technologických kare…",
+      "className": "pr-8 mb-4 text-[#52665e]",
+      "text": "Ano. Z technologických karet Normula automaticky přepočítá suroviny na aktuální počet strávníků a vygeneruje objednávku na sklad.",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c201",
+      "parentId": "c19",
+      "order": 7,
+      "kind": "frame",
+      "name": "Section",
+      "className": "md:pt-10 md:pb-21 py-15",
+      "text": null,
+      "attrs": [
+        {
+          "name": "id",
+          "value": "kontakt"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c202",
+      "parentId": "c201",
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "grid gap-12 grid-cols-[1fr] md:grid-cols-[1fr_1fr] w-full max-w-[var(--maxw)] relative text-[#eaf5f0] [background-image:linear-gradient(135deg,_rgb(11,_26,_21),_rgb(15,_59,_44))] overflow-x-hidden overflow-y-hidden mx-auto p-8 rounded-[24px] md:p-12 after:w-[360px] after:h-[360px] after:box-content after:absolute after:-bottom-30 after:-left-20 after:[background-image:radial-gradient(circle,_rgba(0,_143,_0,_0.28),_rgba(0,_0,_0,_0)_65%)] after:content-[''] after:rounded-full",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c203",
+      "parentId": "c202",
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "relative z-[1]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c204",
+      "parentId": "c203",
+      "order": 0,
+      "kind": "text",
+      "name": "Heading",
+      "className": "mb-3 md:mb-[16.8px] text-[24px] md:text-[33.6px] font-bold leading-[27.6px] md:leading-[38.64px] tracking-[-0.48px] md:tracking-[-0.67px] text-[#ffffff]",
+      "text": "Domluvte si ukázku Normula",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c205",
+      "parentId": "c203",
+      "order": 1,
+      "kind": "text",
+      "name": "Zanechte nám kontakt a my v…",
+      "className": "mb-4 text-[#b9d3c8]",
+      "text": "Zanechte nám kontakt a my vám do 24 hodin zavoláme, ukážeme systém a pomůžeme s nastavením.",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c206",
+      "parentId": "c202",
+      "order": 1,
+      "kind": "frame",
+      "name": "Form",
+      "className": "relative z-[1] bg-[#ffffff0f] border-[#ffffff1f] p-6 border rounded-[16px]",
+      "text": null,
+      "attrs": [
+        {
+          "name": "id",
+          "value": "leadForm"
+        },
+        {
+          "name": "action",
+          "value": "https://api.web3forms.com/submit"
+        },
+        {
+          "name": "method",
+          "value": "POST"
+        },
+        {
+          "name": "noValidate",
+          "value": "true"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c207",
+      "parentId": "c206",
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "mb-3.5",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c208",
+      "parentId": "c207",
+      "order": 0,
+      "kind": "text",
+      "name": "Jméno a příjmení",
+      "className": "block mb-[5.59px] text-[13.12px] font-semibold leading-[20.99px] text-[#cfe6dc]",
+      "text": "Jméno a příjmení",
+      "attrs": [
+        {
+          "name": "htmlFor",
+          "value": "name"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c209",
+      "parentId": "c207",
+      "order": 1,
+      "kind": "input",
+      "name": "Jana Nováková input",
+      "className": "w-full text-[15.2px] leading-[24.32px] text-[#0b1a15] bg-[#fffffff2] border-[#ffffff2e] [transition:border-color_0.15s,_box-shadow_0.15s] focus:outline-[3px] focus:border-[#12271f] focus:shadow-[rgba(0,_143,_0,_0.25)_0px_0px_0px_3px] py-[11.52px] px-[14.4px] border rounded-[10px]",
+      "text": null,
+      "attrs": [
+        {
+          "name": "id",
+          "value": "name"
+        },
+        {
+          "name": "name",
+          "value": "name"
+        },
+        {
+          "name": "type",
+          "value": "text"
+        },
+        {
+          "name": "autoComplete",
+          "value": "name"
+        },
+        {
+          "name": "required",
+          "value": "true"
+        },
+        {
+          "name": "placeholder",
+          "value": "Jana Nováková"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c210",
+      "parentId": "c206",
+      "order": 1,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "mb-3.5",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c211",
+      "parentId": "c210",
+      "order": 0,
+      "kind": "text",
+      "name": "Název školy / jídelny",
+      "className": "block mb-[5.59px] text-[13.12px] font-semibold leading-[20.99px] text-[#cfe6dc]",
+      "text": "Název školy / jídelny",
+      "attrs": [
+        {
+          "name": "htmlFor",
+          "value": "org"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c212",
+      "parentId": "c210",
+      "order": 1,
+      "kind": "input",
+      "name": "MŠ U Lesa input",
+      "className": "w-full text-[15.2px] leading-[24.32px] text-[#0b1a15] bg-[#fffffff2] border-[#ffffff2e] [transition:border-color_0.15s,_box-shadow_0.15s] focus:outline-[3px] focus:border-[#12271f] focus:shadow-[rgba(0,_143,_0,_0.25)_0px_0px_0px_3px] py-[11.52px] px-[14.4px] border rounded-[10px]",
+      "text": null,
+      "attrs": [
+        {
+          "name": "id",
+          "value": "org"
+        },
+        {
+          "name": "name",
+          "value": "org"
+        },
+        {
+          "name": "type",
+          "value": "text"
+        },
+        {
+          "name": "autoComplete",
+          "value": "organization"
+        },
+        {
+          "name": "required",
+          "value": "true"
+        },
+        {
+          "name": "placeholder",
+          "value": "MŠ U Lesa"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c213",
+      "parentId": "c206",
+      "order": 2,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "mb-3.5",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c214",
+      "parentId": "c213",
+      "order": 0,
+      "kind": "text",
+      "name": "E-mail",
+      "className": "block mb-[5.59px] text-[13.12px] font-semibold leading-[20.99px] text-[#cfe6dc]",
+      "text": "E-mail",
+      "attrs": [
+        {
+          "name": "htmlFor",
+          "value": "email"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c215",
+      "parentId": "c213",
+      "order": 1,
+      "kind": "input",
+      "name": "Jana@skolka.cz input",
+      "className": "w-full text-[15.2px] leading-[24.32px] text-[#0b1a15] bg-[#fffffff2] border-[#ffffff2e] [transition:border-color_0.15s,_box-shadow_0.15s] focus:outline-[3px] focus:border-[#12271f] focus:shadow-[rgba(0,_143,_0,_0.25)_0px_0px_0px_3px] py-[11.52px] px-[14.4px] border rounded-[10px]",
+      "text": null,
+      "attrs": [
+        {
+          "name": "id",
+          "value": "email"
+        },
+        {
+          "name": "name",
+          "value": "email"
+        },
+        {
+          "name": "type",
+          "value": "email"
+        },
+        {
+          "name": "autoComplete",
+          "value": "email"
+        },
+        {
+          "name": "required",
+          "value": "true"
+        },
+        {
+          "name": "placeholder",
+          "value": "jana@skolka.cz"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c216",
+      "parentId": "c206",
+      "order": 3,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "mb-3.5",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c217",
+      "parentId": "c216",
+      "order": 0,
+      "kind": "text",
+      "name": "Telefon",
+      "className": "block mb-[5.59px] text-[13.12px] font-semibold leading-[20.99px] text-[#cfe6dc]",
+      "text": "Telefon",
+      "attrs": [
+        {
+          "name": "htmlFor",
+          "value": "phone"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c218",
+      "parentId": "c216",
+      "order": 1,
+      "kind": "input",
+      "name": "+420 123 456 789 input",
+      "className": "w-full text-[15.2px] leading-[24.32px] text-[#0b1a15] bg-[#fffffff2] border-[#ffffff2e] [transition:border-color_0.15s,_box-shadow_0.15s] focus:outline-[3px] focus:border-[#12271f] focus:shadow-[rgba(0,_143,_0,_0.25)_0px_0px_0px_3px] py-[11.52px] px-[14.4px] border rounded-[10px]",
+      "text": null,
+      "attrs": [
+        {
+          "name": "id",
+          "value": "phone"
+        },
+        {
+          "name": "name",
+          "value": "phone"
+        },
+        {
+          "name": "type",
+          "value": "tel"
+        },
+        {
+          "name": "autoComplete",
+          "value": "tel"
+        },
+        {
+          "name": "placeholder",
+          "value": "+420 123 456 789"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c219",
+      "parentId": "c206",
+      "order": 4,
+      "kind": "button",
+      "name": "Button: Chci ukázku",
+      "className": "inline-flex items-center justify-center gap-2 w-full font-semibold text-[#ffffff] text-center whitespace-nowrap bg-[#008f00] [transition:transform_0.15s,_background_0.2s,_box-shadow_0.2s,_border-color_0.2s] hover:bg-[#00000000] py-[14.4px] px-[25.6px] rounded-full",
+      "text": "Chci ukázku",
+      "attrs": [
+        {
+          "name": "type",
+          "value": "submit"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c220",
+      "parentId": "c206",
+      "order": 5,
+      "kind": "box",
+      "name": "Box",
+      "className": "mt-3 min-h-[17.28px] text-[14.4px] font-semibold leading-[23.04px]",
+      "text": null,
+      "attrs": [
+        {
+          "name": "id",
+          "value": "formNote"
+        },
+        {
+          "name": "role",
+          "value": "status"
+        },
+        {
+          "name": "aria-live",
+          "value": "polite"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c221",
+      "parentId": "c206",
+      "order": 6,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "mt-2 text-[11.84px] leading-[18.94px] text-[#90b0a4]",
+      "text": "Odesláním souhlasíte se za účelem kontaktu. Nic vám neposíláme bez vašeho souhlasu.",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c222",
+      "parentId": "c221",
+      "order": 0,
+      "kind": "text",
+      "name": "zpracováním osobních údajů",
+      "className": "text-[#a8c4b9] underline hover:text-[#33a633]",
+      "text": "zpracováním osobních údajů",
+      "attrs": [
+        {
+          "name": "href",
+          "value": "/ochrana-udaju"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c223",
+      "parentId": "c1",
+      "order": 2,
+      "kind": "frame",
+      "name": "Footer",
+      "className": "mt-21 pt-14 pb-6 text-[#c6d8d0] bg-[#0b1a15]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c224",
+      "parentId": "c223",
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "grid gap-10 grid-cols-[1fr] md:grid-cols-[1.2fr_1fr] pb-8 w-full max-w-[var(--maxw)] border-b border-[#ffffff14] mx-auto px-6",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c225",
+      "parentId": "c224",
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c226",
+      "parentId": "c225",
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "inline-flex items-center gap-[8.8px] mb-3 text-[18.4px] font-extrabold leading-[29.44px] tracking-[-0.55px] text-[#ffffff]",
+      "text": null,
+      "attrs": [
+        {
+          "name": "href",
+          "value": "#top"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c227",
+      "parentId": "c226",
+      "order": 0,
+      "kind": "image",
+      "name": "Image",
+      "className": "w-[34px] h-[34px] object-contain",
+      "text": null,
+      "attrs": [
+        {
+          "name": "src",
+          "value": "/icon.png"
+        },
+        {
+          "name": "width",
+          "value": "32"
+        },
+        {
+          "name": "height",
+          "value": "32"
+        },
+        {
+          "name": "alt",
+          "value": ""
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c228",
+      "parentId": "c226",
+      "order": 1,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "",
+      "text": "Normula",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c229",
+      "parentId": "c228",
+      "order": 0,
+      "kind": "text",
+      "name": ".cz",
+      "className": "text-[#008f00]",
+      "text": ".cz",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c230",
+      "parentId": "c225",
+      "order": 1,
+      "kind": "text",
+      "name": "Software pro školní stravov…",
+      "className": "mb-[14.39px] max-w-[403.2px] text-[14.4px] leading-[23.04px] text-[#90b0a4]",
+      "text": "Software pro školní stravování. Vyrobeno v České republice.",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c231",
+      "parentId": "c224",
+      "order": 1,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "grid gap-6 grid-cols-[1fr_1fr]",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c232",
+      "parentId": "c231",
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c233",
+      "parentId": "c232",
+      "order": 0,
+      "kind": "text",
+      "name": "Heading",
+      "className": "mb-3 text-[13.12px] font-bold leading-[15.09px] tracking-[1.31px] text-[#ffffff] uppercase",
+      "text": "Produkt",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c234",
+      "parentId": "c232",
+      "order": 1,
+      "kind": "text",
+      "name": "Funkce",
+      "className": "block mb-2 text-[14.4px] leading-[23.04px] text-[#a8c4b9] hover:text-[#33a633]",
+      "text": "Funkce",
+      "attrs": [
+        {
+          "name": "href",
+          "value": "#funkce"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c235",
+      "parentId": "c232",
+      "order": 2,
+      "kind": "text",
+      "name": "Ceník",
+      "className": "block mb-2 text-[14.4px] leading-[23.04px] text-[#a8c4b9] hover:text-[#33a633]",
+      "text": "Ceník",
+      "attrs": [
+        {
+          "name": "href",
+          "value": "#cenik"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c236",
+      "parentId": "c232",
+      "order": 3,
+      "kind": "text",
+      "name": "Časté dotazy",
+      "className": "block mb-2 text-[14.4px] leading-[23.04px] text-[#a8c4b9] hover:text-[#33a633]",
+      "text": "Časté dotazy",
+      "attrs": [
+        {
+          "name": "href",
+          "value": "#faq"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c237",
+      "parentId": "c231",
+      "order": 1,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c238",
+      "parentId": "c237",
+      "order": 0,
+      "kind": "text",
+      "name": "Heading",
+      "className": "mb-3 text-[13.12px] font-bold leading-[15.09px] tracking-[1.31px] text-[#ffffff] uppercase",
+      "text": "Kontakt",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c239",
+      "parentId": "c237",
+      "order": 1,
+      "kind": "text",
+      "name": "info@normula.cz",
+      "className": "block mb-2 text-[14.4px] leading-[23.04px] text-[#a8c4b9] hover:text-[#33a633]",
+      "text": "info@normula.cz",
+      "attrs": [
+        {
+          "name": "href",
+          "value": "mailto:info@normula.cz"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c240",
+      "parentId": "c237",
+      "order": 2,
+      "kind": "text",
+      "name": "Praha, Česká republika",
+      "className": "block mb-2 text-[14.4px] leading-[23.04px] text-[#a8c4b9]",
+      "text": "Praha, Česká republika",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c241",
+      "parentId": "c223",
+      "order": 1,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "flex flex-wrap justify-between gap-2 pt-5 w-full max-w-[var(--maxw)] text-[13.12px] leading-[20.99px] text-[#7d9b90] mx-auto px-6",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c242",
+      "parentId": "c241",
+      "order": 0,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "",
+      "text": "© Normula.cz - Všechna práva vyhrazena.",
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c243",
+      "parentId": "c242",
+      "order": 0,
+      "kind": "box",
+      "name": "Box",
+      "className": "",
+      "text": null,
+      "attrs": [
+        {
+          "name": "id",
+          "value": "year"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c244",
+      "parentId": "c241",
+      "order": 1,
+      "kind": "frame",
+      "name": "Frame",
+      "className": "flex flex-wrap gap-y-[5.6px] gap-x-4",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "c245",
+      "parentId": "c244",
+      "order": 0,
+      "kind": "text",
+      "name": "Ochrana údajů (GDPR)",
+      "className": "text-[#a8c4b9] underline hover:text-[#33a633]",
+      "text": "Ochrana údajů (GDPR)",
+      "attrs": [
+        {
+          "name": "href",
+          "value": "/ochrana-udaju"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "c246",
+      "parentId": "c244",
+      "order": 1,
+      "kind": "text",
+      "name": "Podmínky užívání",
+      "className": "text-[#a8c4b9] underline hover:text-[#33a633]",
+      "text": "Podmínky užívání",
+      "attrs": [
+        {
+          "name": "href",
+          "value": "/podminky-uzivani"
+        }
+      ],
+      "figmaId": null
+    },
+    {
+      "id": "n-8a392234",
+      "parentId": "c1",
+      "order": 3,
+      "kind": "box",
+      "name": "Button",
+      "className": "",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "n-9f713a7c",
+      "parentId": "c1",
+      "order": 4,
+      "kind": "box",
+      "name": "Button",
+      "className": "",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    },
+    {
+      "id": "n-d1ef4177",
+      "parentId": "c1",
+      "order": 5,
+      "kind": "box",
+      "name": "Button",
+      "className": "",
+      "text": null,
+      "attrs": [],
+      "figmaId": null
+    }
+  ]
+}
